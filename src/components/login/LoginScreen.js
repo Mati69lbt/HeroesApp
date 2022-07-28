@@ -11,9 +11,7 @@ const LoginScreen = () => {
   const { dispatch } = useContext(AuthContext);
 
   const handleInputChange = (e) => {
-    let name = e.target.value;
-    // name = name[0].toUpperCase() + name.substring(1);
-    // console.log(name);
+    let name = e.target.value;    
     setNameLoging(name);
   };
 

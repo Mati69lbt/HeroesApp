@@ -22,7 +22,6 @@ import { AuthContext } from "../auth/AuthContext";
 export const PrivateRoutes = ({ children }) => {
   const { user } = useContext(AuthContext);
   const { pathname, search } = useLocation();
-  console.log(pathname);
   localStorage.setItem("lastPath", pathname + search);
 
   return user.logged ? children : <Navigate to="/login" />;
