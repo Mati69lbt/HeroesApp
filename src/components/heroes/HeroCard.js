@@ -12,7 +12,7 @@ const HeroCard = ({
     <div
       className="card row gx-5"
       style={{
-        maxWidth: 450,
+        maxWidth: "45%",
         marginBottom: "10px",
       }}
     >

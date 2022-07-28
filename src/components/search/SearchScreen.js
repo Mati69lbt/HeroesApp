@@ -51,7 +51,7 @@ const SearchScreen = () => {
           <hr />
           {q === "" && <div className="alert alert-info">Search a hero</div>}
           {q !== "" && heroesFilteres.length === 0 && (
-            <div className="alert alert-info">There is no a hero with {q}</div>
+            <div className="alert alert-info">There is no a hero with {q} </div>
           )}
           {heroesFilteres.map((hero) => (
             <HeroCard key={hero.id} {...hero} />

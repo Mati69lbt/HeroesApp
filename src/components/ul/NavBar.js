@@ -18,17 +18,18 @@ export const Navbar = () => {
     navigate("/login", { replace: true });
   };
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark ">
-      <Link className="navbar-brand" to="/">
-        Asociaciones
-      </Link>
-
-      <div className="navbar-collapse">
+    <nav
+      className="navbar navbar-expand-lg navbar-dark bg-dark"
+      style={{ marginLeft: "5px" }}
+    >
+      <div className="navbar-collapse" style={{ marginLeft: "25px" }}>
+        <NavLink className="navbar-nav  nav-link" to="/">
+          Associations
+        </NavLink>
         <div className="navbar-nav">
           <NavLink className="nav-item nav-link" to="/marvel">
             Marvel
           </NavLink>
-
           <NavLink className="nav-item nav-link" to="/dc">
             DC
           </NavLink>
