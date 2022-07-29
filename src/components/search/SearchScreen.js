@@ -64,6 +64,7 @@ const SearchScreen = () => {
               alignItems: "center",
               flexDirection: "column",
             }}
+            key={hero.id}
           >
             <HeroCard key={hero.id} {...hero} style />
           </div>
