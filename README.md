@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Heroes APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue creado con React, aca va el video....
+
+![Demo CountPages alpha](./public/assets/video/video.mp4)
 
 ## Available Scripts
 

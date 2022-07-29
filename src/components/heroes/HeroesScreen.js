@@ -16,7 +16,6 @@ const HeroesScreen = () => {
     hero;
   return (
     <div className="row mt-5">
-      <h1>HeroesScreen</h1>
       <div className="col-4">
         <img
           src={`../assets/heroes/${heroeId}.jpg`}
