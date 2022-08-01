@@ -19,11 +19,13 @@ const HeroCard = ({
       <div className="row g-0 col">
         <div className="col-5 col-sm-4 p-3 border bg-light">
           <img
-            src={`./assets/heroes/${id}.jpg`}
+            // src={`../assets/heroes/${id}.jpg`}
+            src={`./public/assets/heroes/${id}.jpg`}
             alt={superhero}
             className="card-img"
           />
         </div>
+
         <div className="col-7 col-sm-8 p-3 border bg-light">
           <div className="card-body">
             <h5 className="card-title">{superhero}</h5>
