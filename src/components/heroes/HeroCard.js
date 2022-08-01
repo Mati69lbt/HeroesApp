@@ -8,7 +8,7 @@ const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  var a = `./assets/heroes/${id}.jpg`;
+  var a = `/assets/heroes/${id}.jpg`;
   console.log(a);
 
   return (
@@ -22,7 +22,7 @@ const HeroCard = ({
       <div className="row g-0 col">
         <div className="col-5 col-sm-4 p-3 border bg-light">
           <img
-            src={`./assets/heroes/${id}.jpg`}
+            src={`/assets/heroes/${id}.jpg`}
             alt={superhero}
             className="card-img"
           />
