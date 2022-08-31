@@ -23,7 +23,7 @@ const HeroCard = ({
         <div className="col-5 col-sm-4 p-3 border bg-light">
           <img
             // src={`./assets/heroes/${id}.jpg`}
-            src={`docs/assets/heroes/marvel-spider.jpg`}
+            src={`../../../docs/assets/heroes${id}`}
             alt={superhero}
             className="card-img"
           />
