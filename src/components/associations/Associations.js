@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "./ass.css";
 const Associations = () => {
   return (
-    <div className="alo ">
-      <Link to="/search" className="a">
+    <div className="alo">
+      <Link to="/search" className="aaa">
         Welcome to your Comics Page
       </Link>
     </div>

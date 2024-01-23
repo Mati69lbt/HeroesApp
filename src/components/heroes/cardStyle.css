@@ -4,3 +4,24 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+@media (max-width: 576px) {
+  .cardColums {
+    /* hacelo responsive*/
+    flex-direction: column;
+    /* ahora que ocupe todo el ancho de la pantalla */
+    width: 100%;
+    align-items: center;
+  }
+  .cardColumns .card {
+    width: 90%; /* Ocupa la mayoría del ancho de la pantalla, con un poco de margen */
+  }
+  #CartaCompleta {
+    margin-bottom: 20px; /* Añade espacio debajo de cada tarjeta */
+    width: 90%; /* Usa un porcentaje de ancho para la responsividad */
+  }
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+}

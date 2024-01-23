@@ -10,7 +10,7 @@ const HeroCard = ({
 }) => {
   return (
     <div
-      className="card row gx-5"
+      className="card row gx-5" id="CartaCompleta"
       style={{
         maxWidth: "45%",
         marginBottom: "10px",
